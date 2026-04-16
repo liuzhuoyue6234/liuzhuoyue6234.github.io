@@ -26,7 +26,7 @@ sudo apt install -y git cmake build-essential libusb-1.0-0-dev libgl1-mesa-glx l
 
 
 3、创建并激活虚拟环境
-# conda create -n gemini336_sim python=3.10 -y  # 3.10是ob-python官方推荐的最稳定版本
+conda create -n gemini336_sim python=3.10 -y   *3.10是ob-python官方推荐的最稳定版本*
 ***遇到了问题
 仍然提示 conda: command not found
 
@@ -36,7 +36,7 @@ source ~/.bashrc
 
 
 
-# conda activate gemini336_sim
+ conda activate gemini336_sim
 
 
 
@@ -71,7 +71,7 @@ pip install open3d==0.18.0 numpy==1.26.4 matplotlib==3.8.4
 
 
 
-#####ubantu中安装app
+# ubantu中安装app
 1、本地安装sudo dpkg -i com.alibabainc.dingtalk_8.1.0.6021101_amd64.deb
       若出现依赖问题  sudo apt install -f（自动修复依赖问题）
 2、软件源安装sudo apt install app_name
